@@ -1,7 +1,7 @@
 clear all;
 clc;
 close all;
-load("ORL_mtv.mat")
+load("HW2.mat")
 
 % Better parameter setting can be found via grid-search.
 parfor k = 1:10
